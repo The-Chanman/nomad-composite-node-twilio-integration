@@ -1,0 +1,25 @@
+{
+  "name": "Twilio-composite",
+  "nomadName": "Twilio-composite",
+  "version": "1.0.0",
+  "description": "This node will sms a specific person when a value from the exploritorium is above average.",
+  "main": "sensor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDEO-coLAB/nomad-sensor-hello.git"
+  },
+  "author": "Eric Chan <echan@ideo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IDEO-coLAB/nomad-sensor-hello/issues"
+  },
+  "homepage": "https://github.com/IDEO-coLAB/nomad-sensor-hello#readme",
+  "dependencies": {
+    "moment": "^2.16.0",
+    "nomad-stream": "0.0.6",
+    "twilio": "^2.11.1"
+  }
+}
